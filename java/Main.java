@@ -476,7 +476,7 @@ public class Main {
                     int p;
                     System.out.print("Please, enter the number of the mean of transport to delete: ");
                     p = scanner.nextInt();
-                    transports.get(p - 1).deleteTransport(transports, p);
+                    transports.get(p - 1).deleteTransport(transports, p-1);
                 }
                 break;
 
