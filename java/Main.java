@@ -712,7 +712,6 @@ public class Main {
                             for (int i = 0; i < transports.size(); i++) {
                                 System.out.println("Transport " + (i + 1) + ":");
                                 transports.get(i).displayInfo(transports.get(i));
-                                System.out.println("Route: " + transports.get(i).getRoute() + "\n\n");
                             }
     
                             System.out.print("\nEnter the means of transport: ");
@@ -767,7 +766,6 @@ public class Main {
                     for (int i = 0; i < transports.size(); i++) {
                         System.out.println("Transport " + (i + 1) + ":");
                         transports.get(i).displayInfo(transports.get(i));
-                        System.out.println("Route: " + transports.get(i).getRoute() + "\n\n");
                     }
                     System.out.print("\nEnter the means of transport: ");
                     int n = scanner.nextInt();

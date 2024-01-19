@@ -1,6 +1,5 @@
 package cps2004.java;
 
-import java.util.List;
 import java.util.Random;
 
 public class customer {
@@ -69,6 +68,6 @@ public class customer {
     }
 
     public void displayInfo() {
-            System.out.println(": Name: " + this.getName() + ", Age: " + this.getAge() + ", Id: " + this.getId());
+            System.out.println("Name: " + this.getName() + ", Age: " + this.getAge() + ", Id: " + this.getId());
     }
 }
